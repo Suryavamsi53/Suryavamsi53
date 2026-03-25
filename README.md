@@ -19,5 +19,10 @@ Backend Engineer | Go | Kubernetes | SRE Enthusiast
 ## 🧰 Tech Stack
 Go | Kubernetes | Docker | Linux | Prometheus | Grafana
 
+## 📊 GitHub Metrics
+![Metrics](https://raw.githubusercontent.com/Suryavamsi53/Suryavamsi53/main/github-metrics.svg)
+
 ## 🐍 Contribution Snake
 ![snake](https://github.com/Suryavamsi53/Suryavamsi53/blob/output/github-contribution-grid-snake.svg)
+
+
