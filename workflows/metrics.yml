@@ -20,38 +20,36 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: github-metrics.svg
 
-          # 🧩 Base sections
+          # 🧩 Core sections
           base: header, activity, community, repositories
-
           config_timezone: Asia/Kolkata
 
-          # 🔥 Languages (like in image)
+          # 🌐 Languages
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_languages_limit: 8
+          plugin_languages_limit: 6
 
-          # 🔥 Calendar (contribution heatmap style)
+          # 📅 Contribution calendar
           plugin_isocalendar: yes
 
-          # 🔥 Coding habits (time + day graph)
-          plugin_habits: yes
-          plugin_habits_days: 14
+          # ❌ Disabled (causing error)
+          plugin_habits: no
 
-          # 🔥 Tech topics (icons)
+          # 🧠 Tech/topics
           plugin_topics: yes
-          plugin_topics_limit: 12
+          plugin_topics_limit: 10
 
-          # 🔥 Stars & popularity
+          # ⭐ Stars
           plugin_stars: yes
 
-          # 🔥 Traffic (views, clones)
+          # 🚦 Traffic (optional but nice)
           plugin_traffic: yes
 
-          # 🔥 Achievements badges
+          # 🏆 Achievements
           plugin_achievements: yes
 
-          # 🔥 3D skyline graph (very cool)
+          # 🌆 Skyline (3D effect)
           plugin_skyline: yes
 
-          # 🔥 Follow-up activity
+          # 🔁 Activity insights
           plugin_followup: yes
