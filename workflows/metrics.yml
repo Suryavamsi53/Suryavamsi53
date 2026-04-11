@@ -33,7 +33,7 @@ jobs:
           plugin_isocalendar: yes
 
           # ❌ Disabled (causing error)
-          plugin_habits: no
+          #plugin_habits: no
 
           # 🧠 Tech/topics
           plugin_topics: yes
