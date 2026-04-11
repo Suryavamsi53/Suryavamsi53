@@ -27,10 +27,24 @@
 
 ---
 
-## 📊 GitHub Dashboard
+## 🚀 Featured Projects
 
 <p align="center">
-  <img src="./github-metrics.svg" width="100%"/>
+
+<a href="https://github.com/Suryavamsi53/sre-observability-platform">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Suryavamsi53&repo=sre-observability-platform&theme=tokyonight&border_radius=15" width="400"/>
+</a>
+
+<a href="https://github.com/Suryavamsi53/api-gateway">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Suryavamsi53&repo=api-gateway&theme=tokyonight&border_radius=15" width="400"/>
+</a>
+
+<br/>
+
+<a href="https://github.com/Suryavamsi53/RestApi">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Suryavamsi53&repo=RestApi&theme=tokyonight&border_radius=15" width="400"/>
+</a>
+
 </p>
 
 ---
@@ -43,22 +57,11 @@
 
 ---
 
-## 🚀 Featured Projects
+## 📊 GitHub Dashboard
 
-### 🔹 Kubernetes Microservices Platform
-- Designed **scalable microservices architecture**
-- Implemented **auto-scaling + service discovery**
-- Integrated **monitoring & alerting**
-
-### 🔹 High-Performance Go API
-- Built REST APIs handling concurrent requests
-- Optimized for **low latency & efficiency**
-- Implemented **authentication & clean architecture**
-
-### 🔹 Observability Stack
-- End-to-end monitoring using **Prometheus + Grafana**
-- Built dashboards for **real-time insights**
-- Improved debugging & system visibility
+<p align="center">
+  <img src="./github-metrics.svg" width="100%"/>
+</p>
 
 ---
 
@@ -82,7 +85,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/Suryavamsi53/Suryavamsi53/blob/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Suryavamsi53/Suryavamsi53/output/github-contribution-grid-snake.svg"/>
 </p>
 
 ---
@@ -100,7 +103,6 @@
 
 ---
 
-<!-- Footer -->
 <p align="center">
 ✨ Focused on building systems that scale, perform, and last.
 </p>
