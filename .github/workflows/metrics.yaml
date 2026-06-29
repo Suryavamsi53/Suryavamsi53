@@ -1,0 +1,91 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # GitHub Username
+          user: Suryavamsi53
+
+          # Personal Access Token (Recommended)
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Output
+          filename: github-metrics.svg
+
+          # Timezone
+          config_timezone: Asia/Kolkata
+
+          ####################################################
+          # Base
+          ####################################################
+          base: header, activity, community, repositories
+
+          ####################################################
+          # Languages
+          ####################################################
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 30
+
+          ####################################################
+          # Contribution Calendar
+          ####################################################
+          plugin_isocalendar: yes
+
+          ####################################################
+          # Topics
+          ####################################################
+          plugin_topics: yes
+          plugin_topics_limit: 12
+          plugin_topics_mode: mastered
+
+          ####################################################
+          # Stars
+          ####################################################
+          plugin_stars: yes
+
+          ####################################################
+          # Follow-up
+          ####################################################
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+
+          ####################################################
+          # Achievements
+          ####################################################
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: detailed
+
+          ####################################################
+          # Skyline
+          ####################################################
+          plugin_skyline: yes
+          plugin_skyline_year: current
+
+          ####################################################
+          # Disabled Plugins (Avoid Common Errors)
+          ####################################################
+          plugin_habits: no
+          plugin_traffic: no
+          plugin_people: no
+          plugin_notable: no
+          plugin_discussions: no
+          plugin_pagespeed: no
