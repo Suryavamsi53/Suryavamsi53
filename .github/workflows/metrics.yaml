@@ -19,10 +19,10 @@ jobs:
           # GitHub Username
           user: Suryavamsi53
 
-          # Personal Access Token (Recommended)
+          # Personal Access Token
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Output
+          # Output file
           filename: github-metrics.svg
 
           # Timezone
@@ -68,21 +68,10 @@ jobs:
           plugin_followup_sections: repositories
 
           ####################################################
-          # Achievements
+          # Disabled (avoids current errors)
           ####################################################
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: detailed
-
-          ####################################################
-          # Skyline
-          ####################################################
-          plugin_skyline: yes
-          plugin_skyline_year: current
-
-          ####################################################
-          # Disabled Plugins (Avoid Common Errors)
-          ####################################################
+          plugin_achievements: no
+          plugin_skyline: no
           plugin_habits: no
           plugin_traffic: no
           plugin_people: no
